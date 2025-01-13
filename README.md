@@ -51,86 +51,88 @@ Felsorolás
 
 Számozás
 
-Hétfő
-Kedd
-Szerda
+1. Hétfő
+2. Kedd
+3. Szerda
 
 
 
 Számozás indítása más kezdettel:
 
-Vasárnap
-Hétfő
+100. Vasárnap
+101. Hétfő
 
 
-Kód
+# Kód
 
 Soron belül code
 
 Behúzott kód
 
-Néhány megjegyzés
-Gyakorlás
-Gyakorlás
-Gyakorlás
+// Néhány megjegyzés  
+Gyakorlás  
+Gyakorlás  
+Gyakorlás  
 
 
 Blokk kód
 
-
-Egyszerű szöveg...
+    Egyszerű szöveg...
 
 
 Szintaxis kiemelés
 
 
+``` python
 for i in range(10):
     print("Hello")
-print("Vége")
+ print("Vége")
+```
 
 
-Táblázat
+# Táblázat
 
-Gyümölcs Mennyiség
-
-alma 10 kg
-körte 20 kg
-banán 30 kg
+| Gyümölcs | Mennyiség |
+| ---------- | ----------|
+| alma | 10 kg |
+| körte | 20 kg |
+| banán | 30 kg |
 
 Jobbra igazított táblázat
 
-Gyümölcs Mennyiség
-alma 10 kg
-körte 20 kg
-banán 30 kg
+| Gyümölcs | Mennyiség |
+| --------: | ---------: |
+| alma | 10 kg |
+| körte | 20 kg |
+| banán | 30 kg |
 
 
-Linkek
+# Linkek
 
-Aqua http://aqua.hu
+- [Aqua](http://aqua.hu)
 
-Media Markt http://mediamarkt.hu/ MediaMarkt Magyarország
+- [Media Markt](http://mediamarkt.hu/ MediaMarkt Magyarország)
 
-Automatikus link https://arpadszki.hu
-
-
-Képek
-
-Minion https://octodex.github.com/images/minion.png
-Stormtroopocat  https://octodex.github.com/images/stormtroopocat.jpg The Stormtroopocat
+__Automatikus link (https://arpadszki.hu)__
 
 
-Emoji https://github.com/markdown-it/markdown-it-emoji
+# **Képek**
 
-Jelek:
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg) The Stormtroopocat
 
 
-Lábjegyzet https://github.com/markdown-it/markdown-it-footnote
+[Emoji](https://github.com/markdown-it/markdown-it-emoji)
+
+>Jelek: :satisfied: :grin: :sleeping:
+
+
+[Lábjegyzet](https://github.com/markdown-it/markdown-it-footnote)  
 Forgalomirányító protokollok:  
-RIP
-OSPF
++ RIP[^1]
++ OSPF[^2]
 
-Routing Information Protocol
+[^1]: Routing Information Protocol
 
-Open Shortest Path First
+[^2]: Open Shortest Path First
 
